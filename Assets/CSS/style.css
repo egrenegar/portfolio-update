@@ -1,0 +1,56 @@
+/* Custom Style Sheet */
+body {
+    background-image: url("../Images/Background.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Jost', sans-serif;
+}
+
+h1, .h1, h2, h3 {
+    font-family: 'Kirang Haerang', sans-serif;
+    color: peachpuff;
+}
+
+
+/* fontawesome icon styles */
+footer i {
+    color: white;
+    margin: 0 8px;
+}
+
+footer i:hover, 
+footer i:focus {
+    color: peachpuff;
+}
+
+.btn {
+    background-color: peachpuff;
+    color: white;
+} .btn:hover {
+    border: 1px solid peachpuff;
+    color: peachpuff;
+    background-color: white;
+}
+
+footer {
+    background-color: peachpuff;
+    
+}
+
+.footer-copyright {
+    background-color: lightgray;
+}
+
+.portfolio-main {
+    overflow: auto;
+}
+
+a {
+    color: black;
+} a:hover {
+    color: peru;
+    text-decoration: bold;
+}
