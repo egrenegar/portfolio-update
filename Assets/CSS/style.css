@@ -9,9 +9,18 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
-h1, .h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: 'Kirang Haerang', sans-serif;
     color: peachpuff;
+}
+
+.navbar-brand {
+    font-family: 'Kirang Haerang', sans-serif;
+    font-size: 30px;
+}
+
+.about-img {
+    border-radius: 100%;
 }
 
 
@@ -52,5 +61,10 @@ a {
     color: black;
 } a:hover {
     color: peru;
-    text-decoration: bold;
+    text-decoration: none;
+}
+
+.contact-icons {
+    margin: 2px;
+    padding: 5px;
 }
