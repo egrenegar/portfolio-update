@@ -7,6 +7,7 @@ body {
     background-size: cover;
     height: 100vh;
     font-family: 'Jost', sans-serif;
+    overflow: auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,28 +17,38 @@ h1, h2, h3, h4, h5 {
 
 .navbar {
     padding: .25rem .5rem;
+    height: 60px;
 }
+
 .navbar-brand {
     font-family: 'Kirang Haerang', sans-serif;
     font-size: 30px;
 }
 
+/* .container {
+    height: 100vh;
+} */
+
+/* image on About page */
 .about-img {
     border-radius: 100%;
 }
 
-
-/* fontawesome icon styles */
+/* fontawesome icon styling */
 footer i {
     color: white;
     margin: 0 8px;
+    display: block;
+    
 }
 
+/* footer icons on all pages */
 footer i:hover, 
 footer i:focus {
     color: peachpuff;
 }
 
+/* button styling */
 .btn {
     background-color: peachpuff;
     color: white;
@@ -47,19 +58,15 @@ footer i:focus {
     background-color: white;
 }
 
+/* footer styling */
 footer {
-    background-color: peachpuff;
-    
-}
-
-.footer-copyright {
     background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.portfolio-main {
-    overflow: auto;
-}
-
+/* styles links */
 a {
     color: black;
 } a:hover {
@@ -67,6 +74,7 @@ a {
     text-decoration: none;
 }
 
+/* styles icons on contact page*/
 .contact-icons {
     margin: 2px;
     padding: 5px;
