@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     font-family: 'Jost', sans-serif;
     overflow: auto;
 }
@@ -25,13 +25,14 @@ h1, h2, h3, h4, h5 {
     font-size: 30px;
 }
 
-/* .container {
-    height: 100vh;
-} */
-
 /* image on About page */
 .about-img {
     border-radius: 100%;
+}
+
+/* footer styling */
+footer {
+    background-color: lightgray;
 }
 
 /* fontawesome icon styling */
@@ -56,14 +57,6 @@ footer i:focus {
     border: 1px solid peachpuff;
     color: peachpuff;
     background-color: white;
-}
-
-/* footer styling */
-footer {
-    background-color: lightgray;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 /* styles links */
