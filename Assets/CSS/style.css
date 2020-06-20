@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     font-family: 'Jost', sans-serif;
     overflow: auto;
 }
@@ -28,19 +28,6 @@ h1, h2, h3, h4, h5 {
 /* image on About page */
 .about-img {
     border-radius: 100%;
-}
-
-/* footer styling */
-footer {
-    background-color: lightgray;
-}
-
-/* fontawesome icon styling */
-footer i {
-    color: white;
-    margin: 0 8px;
-    display: block;
-    
 }
 
 /* footer icons on all pages */
@@ -68,7 +55,7 @@ a {
 }
 
 /* styles icons on contact page*/
-.contact-icons {
+.icons {
     margin: 2px;
     padding: 5px;
 }
